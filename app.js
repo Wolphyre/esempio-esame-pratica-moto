@@ -12,6 +12,11 @@ function displaybike(bikes) {
         bikeModel.innerText = 'Modello: ' + bike.model
         bikeDiv.appendChild(bikeModel)
 
+        const bikeImage = document.createElement('img');
+        bikeImage.classList.add('bike-image');
+        bikeImage.src = bike.image;
+        bikeDiv.appendChild(bikeImage)
+
         const bikeConstructor = document.createElement('h4')
         bikeConstructor.innerText = 'Costruttore: ' + bike.constructor
         bikeDiv.appendChild(bikeConstructor)
@@ -43,11 +48,12 @@ function displaybike(bikes) {
         bikeAvailability.innerText = itsAvailable();
         bikeDiv.appendChild(bikeAvailability);
 
-        const bikeColor = document.createElement('ul')
+        const bikeColor = document.createElement('ol')
         for (const color of bike.colors) {
             const colorLi = document.createElement('li')
             colorLi.style.backgroundColor = color
             bikeColor.appendChild(colorLi)
+            colorLi.classList.add('bike-color')
         }
         bikeDiv.appendChild(bikeColor);
 
