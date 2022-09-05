@@ -1,0 +1,90 @@
+[
+    {
+      "model": "Forza",
+      "constructor": "Honda",
+      "cilinder": 350,
+      "optional": ["caricabatterie", "manopola riscaldabile", "bauletto", "kit stikers ruote", "portabottiglietta"],
+      "yop": 2021,
+      "available": true,
+      "colors": ["blue", "grey", "black", "white"],
+      "class": ["scooter"],
+      "id": "1"
+    },
+    {
+      "model": "Xmax",
+      "constructor": "Yamaha",
+      "cilinder": 300,
+      "optional": ["portapacchi", "bauletto", "borsone", "poggiaschiena passeggero", "caricabatterie"],
+      "yop": 2022,
+      "available": true,
+      "colors": ["black", "grey"],
+      "class": ["scooter"],
+      "id": "2"
+    },
+    {
+        "model": "Hornet",
+        "constructor": "Honda",
+        "cilinder": 200,
+        "optional": ["bauletto", "portapacchi", "cupolino frontale"],
+        "yop": 2020,
+        "available": true,
+        "colors": ["blue", "grey", "red", "white"],
+        "class": ["sport"],
+        "id": "3"
+      },
+      {
+        "model": "Himalayan ",
+        "constructor": "Royal Enfield",
+        "cilinder": 400,
+        "optional": ["portapacchi", "bauletto", "borsone", "sella"],
+        "yop": 2021,
+        "available": true,
+        "colors": ["black", "brown", "lightblue"],
+        "class": ["naked", "cruiser"],
+        "id": "4"
+      },
+      {
+        "model": "Vespa primavera",
+        "constructor": "Piaggio",
+        "cilinder": 125,
+        "optional": ["bauletto", "caricabatterie", "paravento"],
+        "yop": 2022,
+        "available": true,
+        "colors": ["black", "grey", "white", "orange", "green", "blue"],
+        "class": ["scooter"],
+        "id": "5"
+      },
+      {
+        "model": "Nevada",
+        "constructor": "Moto Guzzi",
+        "cilinder": 750,
+        "optional": ["portapacchi", "bauletto", "borsone", "cupolino frontale"],
+        "yop": 2000,
+        "available": false,
+        "colors": ["black", "grey"],
+        "class": ["naked"],
+        "id": "6"
+      },
+      {
+        "model": "Bandit",
+        "constructor": "Suzuki",
+        "cilinder": 400,
+        "optional": ["portapacchi", "bauletto", "borsone", "cupolino frontale"],
+        "yop": 1994,
+        "available": false,
+        "colors": ["black", "brown", "white", "grey"],
+        "class": ["sport"],
+        "id": "7"
+      },
+      {
+        "model": "PS",
+        "constructor": "Honda",
+        "cilinder": 125,
+        "optional": [ "bauletto", "paravento"],
+        "yop": 2007,
+        "available": false,
+        "colors": ["black", "grey", "white", "orange"],
+        "class": ["scooter"],
+        "id": "8"
+      }
+  ]
